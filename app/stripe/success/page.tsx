@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useShoppingCart } from "use-shopping-cart";
 
-export default function stripeSuccess() {
+export default function StripeSuccess() {
   const { cartDetails } = useShoppingCart();
   return (
     <div className="h-screen">
